@@ -1,0 +1,508 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "gallery": "ギャラリー",
+    "contact": "お問い合わせ",
+    "about": "私たちについて",
+    "specialEvents": "特別イベント",
+    "picnic": "ピクニック",
+    "camping": "キャンプ"
+  },
+  "hero": {
+    "title": "Mirador Vista Serena",
+    "subtitle": "ジブラルタル、ノルテ・デ・サンタンデールの自然の美しさを発見",
+    "description": "美食と忘れられない風景が出会うユニークな空間",
+    "cta": "メニューを見る"
+  },
+  "menu": {
+    "title": "私たちのメニュー",
+    "drinks": "飲み物",
+    "coldDrinks": "冷たい飲み物",
+    "hotDrinks": "温かい飲み物",
+    "beers": "ビール",
+    "micheladas": "ミチェラーダ",
+    "combos": "コンボ",
+    "desserts": "デザート",
+    "food": "食べ物",
+    "saltFood": "塩味の食べ物",
+    "specialFood": "特別料理",
+    "priceVariable": "価格は変動します - ウェイターに確認してください",
+    "specialProducts": "特別商品",
+    "regenerativeProduct": "再生可能製品",
+    "topThisMonth": "今月の人気商品",
+    "basedOnPreferences": "お客様の好みに基づいています",
+    "orders": "注文",
+    "order": "注文",
+    "addToCart": "追加",
+    "added": "カートに追加されました",
+    "confirmWithWaiter": "ウェイターに価格を確認してください",
+    "lowAvailability": "在庫が少ない - 事前注文と支払いが必要な場合があります"
+  },
+  "cart": {
+    "title": "マイオーダー",
+    "empty": "注文は空です",
+    "addProducts": "メニューから商品を追加",
+    "customerInfo": "お客様情報",
+    "name": "名前",
+    "tableNumber": "テーブル番号",
+    "yourName": "お名前",
+    "exampleTable": "例：5",
+    "confirmPrice": "ウェイターに価格を確認",
+    "subtotal": "小計",
+    "productsWithPrice": "価格のある商品",
+    "productsToConfirm": "確認する商品",
+    "estimatedTotal": "概算合計",
+    "priceNote": "価格は気象、社会、またはサプライチェーンの状況により変動する場合があります",
+    "sendOrder": "WhatsAppで注文を送信",
+    "clearOrder": "注文をクリア",
+    "paymentMethods": "お支払い方法",
+    "cash": "現金（ウェイターに確認）",
+    "nequi": "Nequi",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "itemsWithoutPrice": "価格が設定されていない商品",
+    "waiterWillConfirm": "ウェイターがこれらの商品の最終価格を確認します"
+  },
+  "gallery": {
+    "title": "完全ギャラリー",
+    "subtitle": "すべての瞬間、イベント、体験をご覧ください",
+    "moments": "瞬間",
+    "events": "イベント",
+    "activities": "アクティビティ",
+    "ourTeam": "私たちのチーム",
+    "all": "すべて",
+    "showing": "表示中",
+    "image": "画像",
+    "images": "画像"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "phone": "電話",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "location": "場所",
+    "address": "ジブラルタル、ノルテ・デ・サンタンデール、コロンビア"
+  },
+  "weather": {
+    "title": "ジブラルタルの天気",
+    "location": "ノルテ・デ・サンタンデール、コロンビア",
+    "updating": "天気データを更新中...",
+    "viewForecast": "完全な予報を見る"
+  },
+  "footer": {
+    "rights": "全著作権所有",
+    "madeBy": "作成",
+    "by": "による",
+    "qualityCommitment": "品質と約束",
+    "hygieneStandards": "衛生および食品安全基準を遵守しています",
+    "freshFood": "新鮮で質の高い食品",
+    "naturalProducts": "地域の天然製品",
+    "safeEnvironment": "安全で家族向けの環境"
+  },
+  "common": {
+    "businessName": "Mirador Vista Serena"
+  },
+  "whatsapp": {
+    "title": "どのようにお手伝いできますか？",
+    "subtitle": "オプションを選択",
+    "options": {
+      "reserveTable": "テーブル予約",
+      "quoteEvent": "イベント見積もり",
+      "menuInfo": "メニュー情報",
+      "campingInfo": "キャンプ情報",
+      "picnicInfo": "ピクニック情報",
+      "general": "一般的なお問い合わせ"
+    },
+    "messages": {
+      "reserveTable": "こんにちは！Mirador Vista Serenaでテーブルを予約したいのですが、空き状況を教えていただけますか？",
+      "quoteEvent": "こんにちは！Mirador Vista Serenaで特別なイベントを企画したいと思っています。情報と見積もりを送っていただけますか？",
+      "menuInfo": "こんにちは！Mirador Vista Serenaのメニューと利用可能な料理についてもっと知りたいです。",
+      "campingInfo": "こんにちは！星空の下でのキャンプサービスについて知りたいです。詳細と料金を教えていただけますか？",
+      "picnicInfo": "こんにちは！ピクニック体験に興味があります。利用可能なパッケージの情報を共有していただけますか？",
+      "general": "こんにちは！Mirador Vista Serenaについてもっと知りたいです。"
+    }
+  },
+  "drinks": {
+    "cold": "冷たい飲み物",
+    "hot": "温かい飲み物",
+    "beers": "ビール",
+    "micheladas": "ミチェラーダ",
+    "maracuMango": "マラクマンゴー",
+    "cerezada": "チェリードリンク",
+    "sangria": "赤い果実のサングリア",
+    "naturalJuiceWater": "天然フルーツジュース（水ベース）",
+    "naturalJuiceMilk": "天然フルーツジュース（ミルクベース）",
+    "fruitSlushies": "フルーツスラッシー",
+    "homemadeYogurt": "自家製フルーツヨーグルト",
+    "herbalTea": "ハーブティー",
+    "redFruitTea": "赤い果実のティー",
+    "milkCoffee": "ミルクコーヒー",
+    "blackCoffee": "ブラックコーヒー",
+    "tinto": "コロンビアンコーヒー",
+    "panelWater": "パネラ水",
+    "mintMilk": "ミント風味のミルク",
+    "hotChocolate": "ホットチョコレート",
+    "canelazo": "カネラソ",
+    "national": "国産",
+    "international": "輸入",
+    "poker": "ポーカー",
+    "lightBeer": "ライトビール",
+    "costena": "コステーニャ",
+    "clubColombia": "クラブコロンビアビール",
+    "budweiser": "バドワイザービール",
+    "coronita": "コロニータビール",
+    "coronaLarge": "コロナ大瓶ビール",
+    "simpleMichelada": "シンプルミチェラーダ",
+    "simpleDesc": "塩レモン味、ビール、グラスまたはカップで提供",
+    "beerCream": "ビールクリーム",
+    "beerCreamDesc": "装飾されたグラスで提供、ライトビール、ミントレモン、無糖練乳を含む",
+    "frozenBeer": "フルーツパルプ入り凍結ビール",
+    "frozenBeerDesc": "装飾されたグラスで提供、お好みの凍結フルーツパルプ、お好みのフルーツソース、お好みのビールを含む",
+    "samuelito": "サムエリートミチェラーダ",
+    "samuelitoDesc": "凍結塩レモンあり・なし、細かいマンゴー片、ライトビール、グラスで提供",
+    "specialPauli": "スペシャルパウリミチェラーダ",
+    "specialPauliDesc": "凍結フルーツ、細かいマンゴー片、フルーツ串、装飾されたグラス、お好みのビールを含む",
+    "ponyMalta": "ポニーマルタ",
+    "cocaCola": "コカコーラ",
+    "pureWater": "ピュアウォーター"
+  },
+  "combos": {
+    "title": "飲み物 + クアハーダとアレパのコンボ",
+    "cuajadaPanel": "クアハーダとアレパとパネラ水",
+    "cuajadaCoffee": "クアハーダとアレパとミルクコーヒー",
+    "cuajadaChocolate": "クアハーダとアレパとチョコレート"
+  },
+  "desserts": {
+    "threeMilk": "三種ミルクデザート",
+    "threeMilkDesc": "フルーツソース入り：ブラックベリー、パッションフルーツ、ルロ、マンゴーまたはオレンジ",
+    "homemadeIceCream": "自家製アイスクリーム"
+  },
+  "food": {
+    "stuffedArepas": "柔らかいトウモロコシのアレパ肉詰め",
+    "chorizoArepas": "チョリソー入りアレパ",
+    "pinchos": "串焼き",
+    "choriYuca": "チョリユカ",
+    "chickenRice": "チキンライス",
+    "atolladoRice": "アトジャドライス",
+    "beefFillet": "牛フィレ肉のソテー",
+    "grilledBelly": "グリルしたフランクステーキ",
+    "stuffedBoy": "詰め物入りローストビーフ",
+    "stuffedChickenBreast": "詰め物入り鶏胸肉"
+  },
+  "schedule": {
+    "title": "営業時間",
+    "thursday": "木曜日",
+    "friday": "金曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日",
+    "monday": "月曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日",
+    "opens": "開店時刻",
+    "closes": "閉店時刻",
+    "closed": "休業日"
+  },
+  "about": {
+    "title": "Mirador Vista Serena",
+    "subtitle": "自然と調和したユニークな体験",
+    "quote": "感じることができる人にとって、美しさは説明するものではなく、感じるものです。",
+    "intro1": "これは美しさの証ではないでしょうか？もちろんです。私たちの自然の美しさは、視線、カメラ、そして誠実な心を引きつけます。なぜなら、ここでしか見つけられない特別な魅力があるからです。",
+    "intro2": "Mirador Vista Serenaでは、すべての訪問者が周囲の環境とつながり、ユニークで魔法のような異なる体験を発見する機会があります。私たちは静けさ、自然、そして魂に刻まれる瞬間を大切にしています。",
+    "history": "このプロジェクトは、土地への愛と、この場所を世界と共有したいという家族の夢から生まれました。Doña Blanca Cecilia Suárez Rincónと夫のDon Vicente Tapias、そして娘のPaula Tapiasの支援により、献身、努力、そしてこの地域への深い尊敬をもってMirador Vista Serenaに命を吹き込みました。",
+    "impact": "今日、この空間は楽しむための目的地であるだけでなく、地域の雇用源でもあり、地域の製品や才能を後押しする商業を活性化させる原動力となっています。",
+    "ourTeam": "私たちのチーム",
+    "teamSubtitle": "あなたの体験にコミット",
+    "missionTitle": "ミッション",
+    "missionText": "すべての訪問者が切り離され、静けさを呼吸し、思い出に残る瞬間を過ごすことができる、恵まれた自然環境での本物の体験を提供します。責任ある観光、地域製品の使用、そして私たちのコミュニティのための機会の創出を促進します。",
+    "visionTitle": "ビジョン",
+    "visionText": "温かいおもてなし、環境への取り組み、そして各訪問者のためにユニークな瞬間を創り出す能力により認められた、自然、美食、ウェルネスの体験における地域のリファレンスとなること。私たちは持続可能な方法で成長を続け、地域経済を強化し、私たちを特別にする自然の美しさを保護することを目指しています。"
+  },
+  "hours": {
+    "openDays": "営業日",
+    "closedDays": "休業日",
+    "reservations": "予約および特別イベント"
+  },
+  "recommendations": {
+    "title": "冒険の準備はできていますか？",
+    "subtitle": "訪問を最大限に楽しむための推奨事項",
+    "weather": {
+      "title": "天気を確認",
+      "description": "訪問前に天気予報を確認して、より良い準備をしましょう"
+    },
+    "footwear": {
+      "title": "適切な靴",
+      "description": "自然の小道を歩くために、グリップの良い快適な靴を着用してください"
+    },
+    "sun": {
+      "title": "日焼け対策",
+      "description": "日焼け止め、帽子、キャップを持参して太陽から身を守りましょう"
+    },
+    "rain": {
+      "title": "雨の準備",
+      "description": "傘やレインコートの持参を検討してください。天気が変わる可能性があります"
+    },
+    "insects": {
+      "title": "虫除け",
+      "description": "蚊やその他の昆虫に対する虫除けの使用をお勧めします"
+    },
+    "wildlife": {
+      "title": "野生動物",
+      "description": "自然の生息地で地元の野生動物を観察できます。距離を保ち、敬意を払ってください"
+    },
+    "water": {
+      "title": "水分補給",
+      "description": "特にハイキングを計画している場合は、十分な水を持参してください"
+    },
+    "camera": {
+      "title": "瞬間を撮影",
+      "description": "最高の思い出を残すために、カメラや携帯電話を忘れずに"
+    },
+    "note": "注：これらの推奨事項すべてが毎回必要なわけではありません。天候と予定している活動に応じて準備してください。"
+  },
+  "picnic": {
+    "title": "ピクニック体験",
+    "subtitle": "自然に囲まれた屋外で、壮観な景色と静けさの中でユニークな瞬間をお楽しみください。",
+    "description": "リラックスして自然とつながりたいカップル、家族、またはグループに最適です。",
+    "whatIncludesTitle": "含まれるもの",
+    "whatIncludesSubtitle": "自然を最大限に楽しむための完全な体験",
+    "dedicatedSpace": "専用スペース",
+    "dedicatedSpaceItems": {
+      "outdoor": "眺めの良い屋外エリア",
+      "blankets": "快適なブランケットとクッション",
+      "shade": "自然な日陰またはパラソル",
+      "table": "テーブルと座席あり"
+    },
+    "foodAndDrinks": "食べ物と飲み物",
+    "foodAndDrinksItems": {
+      "basket": "グルメオプション付きバスケット",
+      "drinks": "天然または温かい飲み物",
+      "snacks": "スナックと新鮮なフルーツ",
+      "vegetarian": "ベジタリアンオプションあり"
+    },
+    "extraServices": "追加サービス",
+    "extraServicesItems": {
+      "decoration": "テーマ装飾（オプション）",
+      "music": "Bluetooth環境音楽",
+      "games": "ボードゲーム",
+      "photos": "瞬間の写真撮影"
+    },
+    "activities": "アクティビティ",
+    "activitiesItems": {
+      "hiking": "ガイド付きハイキング",
+      "birdWatching": "バードウォッチング",
+      "hammocks": "ハンモックエリア",
+      "kids": "子供向けスペース"
+    },
+    "amenities": "設備",
+    "amenitiesItems": {
+      "bathrooms": "清潔で設備の整ったトイレ",
+      "charging": "携帯電話充電ポイント",
+      "parking": "無料駐車場",
+      "wifi": "WiFi利用可能"
+    },
+    "naturalEnvironment": "自然環境",
+    "naturalEnvironmentItems": {
+      "air": "山の清浄な空気",
+      "views": "パノラマビュー",
+      "flora": "地域の動植物",
+      "weather": "心地よい気候"
+    },
+    "packagesTitle": "ピクニックパッケージ",
+    "packagesSubtitle": "すべての好みと予算に対応する柔軟なオプション",
+    "basicPackage": "ベーシックピクニック",
+    "basicPrice": "$40.000",
+    "basicPerPerson": "お一人様",
+    "basicItems": {
+      "space": "2-4時間の専用スペース",
+      "basket": "ベーシック食品バスケット",
+      "drink": "天然飲料",
+      "access": "全エリアへのアクセス"
+    },
+    "premiumPackage": "プレミアムピクニック",
+    "premiumPrice": "$70.000",
+    "premiumPerPerson": "お一人様",
+    "premiumItems": {
+      "basic": "ベーシックパッケージのすべて",
+      "gourmet": "完全グルメバスケット",
+      "drinks": "プレミアム飲料",
+      "decoration": "テーマ装飾",
+      "photos": "写真撮影セッション"
+    },
+    "familyPackage": "ファミリーピクニック",
+    "familyPrice": "$250.000",
+    "familyUpTo": "6名様まで",
+    "familyItems": {
+      "space": "終日広々としたスペース",
+      "basket": "完全ファミリーバスケット",
+      "drinks": "飲み放題",
+      "kids": "子供向けアクティビティ",
+      "guide": "自然ガイド"
+    },
+    "reservationNote": "予約：24時間前の予約をお勧めします。価格は季節やサービスのカスタマイズにより変動する場合があります。",
+    "discountsTitle": "特別割引",
+    "discountItems": {
+      "groups": "10名様以上のグループ：15%割引",
+      "weekday": "平日予約：10%割引",
+      "loyalty": "リピーター：ロイヤルティプラン"
+    },
+    "customPackages": "カスタマイズパッケージについてお問い合わせください！"
+  },
+  "camping": {
+    "title": "星空の下でのキャンプ",
+    "subtitle": "冒険が好きなら、星空の下で魔法のような夜を過ごすための完璧な場所を提供します。",
+    "description": "涼しい気候、パノラマビュー、そしてすべての快適さを備えた静かな環境をお楽しみください。",
+    "experienceTitle": "あなたのキャンプ体験",
+    "experienceSubtitle": "自分の装備でのキャンプ - 完全で忘れられない冒険",
+    "campingArea": "キャンプエリア",
+    "campingAreaItems": {
+      "reserved": "テント用の予約スペース",
+      "level": "平らで快適なエリア",
+      "secure": "安全でプライベートなゾーン",
+      "view": "パノラマビュー"
+    },
+    "dinner": "田舎風ディナー",
+    "dinnerItems": {
+      "snacks": "様々な典型的なスナック",
+      "drinks": "天然または温かい飲み物",
+      "dessert": "手作りデザート",
+      "meal": "温かい伝統的なディナー"
+    },
+    "breakfast": "夜明けの朝食",
+    "breakfastItems": {
+      "arepa": "チーズまたはクアハーダ入りアレパ",
+      "eggs": "お好みの卵料理",
+      "hotDrink": "選べる温かい飲み物",
+      "juice": "本日の天然ジュース"
+    },
+    "additionalServicesTitle": "含まれる追加サービス",
+    "additionalServices": {
+      "games": "ボードゲーム",
+      "music": "お好みの音楽",
+      "charging": "携帯電話充電",
+      "data": "共有モバイルデータ",
+      "rest": "休憩エリアへのアクセス",
+      "support": "24時間体制のパーソナライズされたサポート"
+    },
+    "pricingTitle": "料金情報",
+    "pricingDescription1": "自分の装備でのキャンプの価格は、人数、選択されたディナーと朝食の種類により異なります。",
+    "pricingDescription2": "あなたの予算とあなたが体験したい経験に合わせて調整できる柔軟な見積もりを提供します。",
+    "examplePackagesTitle": "パッケージ例",
+    "individual": "個人",
+    "individualPrice": "$80.000〜",
+    "individualItems": {
+      "space": "1名様用スペース",
+      "meals": "ディナー + 朝食",
+      "services": "すべてのサービス"
+    },
+    "couple": "カップル",
+    "couplePrice": "$150.000〜",
+    "coupleItems": {
+      "space": "2名様用スペース",
+      "meals": "ディナー + 朝食",
+      "experience": "ロマンチックな体験"
+    },
+    "group": "グループ/ファミリー",
+    "groupPrice": "お問い合わせください",
+    "groupItems": {
+      "people": "4名様以上",
+      "specialPrice": "グループ特別料金",
+      "personalized": "パーソナライズされた体験"
+    },
+    "importantNote": "重要：自分のキャンプ装備（テント、寝袋など）を持参する必要があります。空き状況を保証するため、事前予約をお勧めします。",
+    "requirementsTitle": "必要なものと推奨事項",
+    "requirementsItems": {
+      "equipment": "良好な状態のキャンプ装備",
+      "clothes": "夜用の暖かい服",
+      "light": "懐中電灯またはランプ",
+      "respect": "自然環境への敬意"
+    },
+    "contactNote": "カスタマイズされた見積もりについてはお問い合わせください！"
+  },
+  "events": {
+    "title": "特別イベント",
+    "subtitle": "快適な気候、壮観な景色、パーソナライズされたサービスで、ユニークな雰囲気をお楽しみください。",
+    "description": "さまざまな特別な瞬間を祝うために設計されたパッケージをご用意しています。",
+    "celebrationPackageTitle": "ベーシックお祝いパッケージ",
+    "celebrationPackageSubtitle": "カップル、家族、または小グループに最適なシンプルで魅力的なプラン。",
+    "reservation": "スペース予約",
+    "reservationItems": {
+      "people": "2名、4名、6名、または8名様用",
+      "table": "テーブルクロス付き装飾テーブル",
+      "balloons": "ヘリウムバルーン",
+      "message": "パーソナライズメッセージ",
+      "centerpiece": "テーブルセンターピース"
+    },
+    "welcomeDrinks": "ウェルカムドリンク",
+    "coldDrinks": "冷たい飲み物：",
+    "coldDrinksList": "パッションフルーツカクテル、マンゴー、モヒート、サングリア、ミチェラーダ、凍結ビール",
+    "hotDrinks": "温かい飲み物：",
+    "hotDrinksList": "カネラソ、ハーブティー、お茶、コーヒー、チョコレート、フレーバーミルク",
+    "snacks": "前菜",
+    "snacksItems": {
+      "pincho": "アレパ付きミックス串",
+      "stuffedArepa": "肉詰めアレパ",
+      "chorizoArepa": "チョリソー入りアレパ",
+      "cuajadaArepa": "新鮮なクアハーダ入りアレパ"
+    },
+    "mainDish": "メインディッシュ",
+    "mainDishItems": {
+      "rice": "アトジャドライス",
+      "patacon": "パタコン",
+      "salad": "千切りサラダ"
+    },
+    "naturalDrink": "天然飲料",
+    "naturalDrinkText": "天然ジュース：マンゴー、パッションフルーツ、タマリロ、イチゴ、グアナバナ、ブラックベリー、パイナップルまたはルロ",
+    "dessert": "デザート",
+    "dessertItems": {
+      "icecream": "クリーミーアイスクリーム",
+      "threeMilk": "フルーツ入り三種ミルク",
+      "cuajada": "ボカディージョまたは蜂蜜入りクアハーダ"
+    },
+    "additionalExperienceTitle": "含まれる追加体験",
+    "additionalExperience": {
+      "games": "ボードゲーム",
+      "hammock": "ハンモックまたはチンチョロ",
+      "music": "お好みの音楽",
+      "charging": "携帯電話充電",
+      "data": "共有モバイルデータ"
+    },
+    "packagesTitle": "パッケージオプション",
+    "packagesSubtitle": "選択された商品と人数に応じて調整可能な価格",
+    "classicPackage": "クラシックエッセンシャル",
+    "classicPrice": "$50.000 - $60.000",
+    "classicItems": {
+      "mainDish": "メインディッシュ",
+      "juice": "天然ジュース",
+      "dessert": "デザート",
+      "noEntries": "前菜なし",
+      "noAlcohol": "アルコール飲料なし"
+    },
+    "flexiblePackage": "フレキシブルエッセンシャル",
+    "flexiblePrice": "$70.000",
+    "flexibleItems": {
+      "mainDish": "メインディッシュ",
+      "entries": "前菜（串またはアレパ）",
+      "juice": "天然ジュース",
+      "dessert": "デザート",
+      "noAlcohol": "アルコール飲料なし"
+    },
+    "premiumPackage": "プレミアムエッセンシャル",
+    "premiumPrice": "$90.000",
+    "premiumItems": {
+      "mainDish": "メインディッシュ",
+      "entries": "完全前菜",
+      "alcohol": "アルコール飲料",
+      "dessert": "デザート",
+      "fullService": "フルサービス"
+    },
+    "importantNote": "重要な注意事項：あなたのイベントに完全に調整された体験を提供するために、まず利用可能な料理をお見せし、カスタマイズされた見積もりを準備します。価格は選択された料理と人数により異なる場合があります。",
+    "groupDiscountsTitle": "グループ割引",
+    "groupDiscounts": {
+      "large": "5名様以上のグループ：優待価格",
+      "negotiable": "料理とグループサイズに応じて交渉可能な価格",
+      "flexible": "1名様またはカップルごとの価格調整可能"
+    },
+    "objective": "私たちの目標は、あなたの予算とニーズに適応することです。"
+  }
+}

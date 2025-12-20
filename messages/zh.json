@@ -1,0 +1,508 @@
+{
+  "nav": {
+    "home": "首页",
+    "menu": "菜单",
+    "gallery": "画廊",
+    "contact": "联系",
+    "about": "关于我们",
+    "specialEvents": "特别活动",
+    "picnic": "野餐",
+    "camping": "露营"
+  },
+  "hero": {
+    "title": "Mirador Vista Serena",
+    "subtitle": "探索直布罗陀、北桑坦德的自然美景",
+    "description": "一个独特的空间，美食与难忘的风景相遇",
+    "cta": "查看菜单"
+  },
+  "menu": {
+    "title": "我们的菜单",
+    "drinks": "饮料",
+    "coldDrinks": "冷饮",
+    "hotDrinks": "热饮",
+    "beers": "啤酒",
+    "micheladas": "米切拉达",
+    "combos": "套餐",
+    "desserts": "甜点",
+    "food": "食物",
+    "saltFood": "咸味食物",
+    "specialFood": "特色菜",
+    "priceVariable": "价格可变 - 与服务员确认",
+    "specialProducts": "特色产品",
+    "regenerativeProduct": "再生产品",
+    "topThisMonth": "本月最受欢迎",
+    "basedOnPreferences": "根据我们客户的喜好",
+    "orders": "订单",
+    "order": "订单",
+    "addToCart": "添加",
+    "added": "已添加到购物车",
+    "confirmWithWaiter": "与服务员确认价格",
+    "lowAvailability": "供应有限 - 可能需要提前订购和付款"
+  },
+  "cart": {
+    "title": "我的订单",
+    "empty": "您的订单为空",
+    "addProducts": "从菜单中添加产品",
+    "customerInfo": "客户信息",
+    "name": "姓名",
+    "tableNumber": "桌号",
+    "yourName": "您的姓名",
+    "exampleTable": "例：5",
+    "confirmPrice": "与服务员确认价格",
+    "subtotal": "小计",
+    "productsWithPrice": "有价格的产品",
+    "productsToConfirm": "待确认产品",
+    "estimatedTotal": "预计总额",
+    "priceNote": "价格可能因天气、社会或供应链情况而变化",
+    "sendOrder": "通过WhatsApp发送订单",
+    "clearOrder": "清空订单",
+    "paymentMethods": "付款方式",
+    "cash": "现金（与服务员确认）",
+    "nequi": "Nequi",
+    "copy": "复制",
+    "copied": "已复制",
+    "itemsWithoutPrice": "未设定价格的产品",
+    "waiterWillConfirm": "服务员将确认这些产品的最终价格"
+  },
+  "gallery": {
+    "title": "完整画廊",
+    "subtitle": "探索我们所有的时刻、活动和体验",
+    "moments": "时刻",
+    "events": "活动",
+    "activities": "活动",
+    "ourTeam": "我们的团队",
+    "all": "全部",
+    "showing": "显示",
+    "image": "图片",
+    "images": "图片"
+  },
+  "contact": {
+    "title": "联系",
+    "phone": "电话",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "location": "位置",
+    "address": "直布罗陀、北桑坦德、哥伦比亚"
+  },
+  "weather": {
+    "title": "直布罗陀天气",
+    "location": "北桑坦德、哥伦比亚",
+    "updating": "正在更新天气数据...",
+    "viewForecast": "查看完整预报"
+  },
+  "footer": {
+    "rights": "版权所有",
+    "madeBy": "制作",
+    "by": "由",
+    "qualityCommitment": "质量与承诺",
+    "hygieneStandards": "我们遵守卫生和食品安全标准",
+    "freshFood": "新鲜优质的食品",
+    "naturalProducts": "该地区的天然产品",
+    "safeEnvironment": "安全和家庭友好的环境"
+  },
+  "common": {
+    "businessName": "Mirador Vista Serena"
+  },
+  "whatsapp": {
+    "title": "我们如何帮助您？",
+    "subtitle": "选择一个选项",
+    "options": {
+      "reserveTable": "预订餐桌",
+      "quoteEvent": "活动报价",
+      "menuInfo": "菜单信息",
+      "campingInfo": "露营信息",
+      "picnicInfo": "野餐信息",
+      "general": "一般咨询"
+    },
+    "messages": {
+      "reserveTable": "您好！我想在Mirador Vista Serena预订一张桌子。您能帮我查看可用性吗？",
+      "quoteEvent": "您好！我有兴趣在Mirador Vista Serena组织一个特别活动。您能给我发送信息和报价吗？",
+      "menuInfo": "您好！我想了解更多关于Mirador Vista Serena的菜单和可用菜肴的信息。",
+      "campingInfo": "您好！我想了解星空下露营服务的信息。您能给我详细信息和价格吗？",
+      "picnicInfo": "您好！我对野餐体验感兴趣。您能分享一下可用套餐的信息吗？",
+      "general": "您好！我想了解更多关于Mirador Vista Serena的信息。"
+    }
+  },
+  "drinks": {
+    "cold": "冷饮",
+    "hot": "热饮",
+    "beers": "啤酒",
+    "micheladas": "米切拉达",
+    "maracuMango": "芒果玛拉库",
+    "cerezada": "樱桃饮料",
+    "sangria": "红色水果桑格利亚",
+    "naturalJuiceWater": "天然水果汁加水",
+    "naturalJuiceMilk": "天然水果汁加奶",
+    "fruitSlushies": "水果冰沙",
+    "homemadeYogurt": "自制水果酸奶",
+    "herbalTea": "草本茶",
+    "redFruitTea": "红色水果茶",
+    "milkCoffee": "牛奶咖啡",
+    "blackCoffee": "黑咖啡",
+    "tinto": "哥伦比亚咖啡",
+    "panelWater": "红糖水",
+    "mintMilk": "薄荷味牛奶",
+    "hotChocolate": "热巧克力",
+    "canelazo": "肉桂酒",
+    "national": "国产",
+    "international": "进口",
+    "poker": "扑克",
+    "lightBeer": "淡啤",
+    "costena": "科斯特尼亚",
+    "clubColombia": "哥伦比亚俱乐部啤酒",
+    "budweiser": "百威啤酒",
+    "coronita": "小科罗娜啤酒",
+    "coronaLarge": "大科罗娜啤酒",
+    "simpleMichelada": "简单米切拉达",
+    "simpleDesc": "咸柠檬味，啤酒，杯装或玻璃杯装",
+    "beerCream": "啤酒奶油",
+    "beerCreamDesc": "装饰杯装，包含淡啤、薄荷柠檬和炼乳",
+    "frozenBeer": "水果泥冰啤酒",
+    "frozenBeerDesc": "装饰杯装，包含您选择的冰冻水果泥、您喜欢的水果酱和您选择的啤酒",
+    "samuelito": "萨缪尔托米切拉达",
+    "samuelitoDesc": "有或没有冰冻咸柠檬，芒果细块，淡啤，玻璃杯装",
+    "specialPauli": "保利特制米切拉达",
+    "specialPauliDesc": "包含冰冻水果、芒果细块、水果串、装饰杯装和您选择的啤酒",
+    "ponyMalta": "小马麦芽",
+    "cocaCola": "可口可乐",
+    "pureWater": "纯净水"
+  },
+  "combos": {
+    "title": "饮料 + 凝乳和玉米饼套餐",
+    "cuajadaPanel": "凝乳配玉米饼和红糖水",
+    "cuajadaCoffee": "凝乳配玉米饼和牛奶咖啡",
+    "cuajadaChocolate": "凝乳配玉米饼和巧克力"
+  },
+  "desserts": {
+    "threeMilk": "三奶甜点",
+    "threeMilkDesc": "配水果酱：黑莓、百香果、茄果、芒果或橙子",
+    "homemadeIceCream": "自制冰淇淋"
+  },
+  "food": {
+    "stuffedArepas": "软玉米饼配肉馅",
+    "chorizoArepas": "玉米饼配西班牙香肠",
+    "pinchos": "串烧",
+    "choriYuca": "香肠木薯",
+    "chickenRice": "鸡肉饭",
+    "atolladoRice": "阿托拉多饭",
+    "beefFillet": "煎牛里脊",
+    "grilledBelly": "烤牛腹肉",
+    "stuffedBoy": "填充烤肉",
+    "stuffedChickenBreast": "填充鸡胸肉"
+  },
+  "schedule": {
+    "title": "营业时间",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "opens": "开门时间",
+    "closes": "关门时间",
+    "closed": "不对外营业"
+  },
+  "about": {
+    "title": "Mirador Vista Serena",
+    "subtitle": "与自然和谐共处的独特体验",
+    "quote": "对于懂得感知的人，美无需解释：只需感受。",
+    "intro1": "这难道不是美的体现吗？当然是的。我们的自然美景吸引着目光、镜头和真诚的心灵，因为这里有只能在此找到的特别之处。",
+    "intro2": "在Mirador Vista Serena，每位访客都有机会与周围的环境连接，发现独特、神奇和与众不同的体验。我们相信宁静、自然和那些铭刻在灵魂中的时刻。",
+    "history": "这个项目诞生于对土地的热爱和一个梦想与世界分享这个地方的家庭的愿景。Doña Blanca Cecilia Suárez Rincón和她的丈夫Don Vicente Tapias，以及他们女儿Paula Tapias的支持，用奉献、努力和对该地区的深深尊重赋予了Mirador Vista Serena生命。",
+    "impact": "如今，这个空间不仅是一个享受的目的地，也是当地就业的来源和推动商业的引擎，促进该地区的产品和人才。",
+    "ourTeam": "我们的团队",
+    "teamSubtitle": "致力于您的体验",
+    "missionTitle": "使命",
+    "missionText": "在优越的自然环境中提供真实的体验，让每位访客都能放松、呼吸宁静并体验难忘的时刻。我们推广负责任的旅游、使用当地产品并为我们的社区创造机会。",
+    "visionTitle": "愿景",
+    "visionText": "成为自然、美食和健康体验的地区标杆，以我们热情的服务、对环境的承诺以及为每位访客创造独特时刻的能力而闻名。我们渴望以可持续的方式继续成长，加强当地经济并保护使我们特别的自然美景。"
+  },
+  "hours": {
+    "openDays": "营业日",
+    "closedDays": "休息日",
+    "reservations": "预订和特别活动"
+  },
+  "recommendations": {
+    "title": "您准备好冒险了吗？",
+    "subtitle": "充分利用您访问的建议",
+    "weather": {
+      "title": "查看天气",
+      "description": "访问前查看天气预报以做好更好的准备"
+    },
+    "footwear": {
+      "title": "合适的鞋子",
+      "description": "穿舒适且抓地力好的鞋子在自然小径上行走"
+    },
+    "sun": {
+      "title": "防晒保护",
+      "description": "带上防晒霜、帽子或遮阳帽以保护自己免受阳光伤害"
+    },
+    "rain": {
+      "title": "准备雨具",
+      "description": "考虑带上雨伞或雨衣，天气可能会变化"
+    },
+    "insects": {
+      "title": "驱虫剂",
+      "description": "我们建议使用驱蚊剂和其他昆虫驱避剂"
+    },
+    "wildlife": {
+      "title": "野生动物",
+      "description": "您可以在其自然栖息地观察当地野生动物。保持距离和尊重"
+    },
+    "water": {
+      "title": "补水",
+      "description": "带足够的水，特别是如果您计划徒步旅行"
+    },
+    "camera": {
+      "title": "捕捉瞬间",
+      "description": "不要忘记您的相机或手机以保存最美好的回忆"
+    },
+    "note": "注意：并非每次访问都需要所有这些建议。根据天气和您计划进行的活动做准备。"
+  },
+  "picnic": {
+    "title": "野餐体验",
+    "subtitle": "在户外享受独特时刻，被自然、壮观景色和宁静环绕。",
+    "description": "非常适合寻求放松和与自然连接的情侣、家庭或团体。",
+    "whatIncludesTitle": "包含什么？",
+    "whatIncludesSubtitle": "充分享受自然的完整体验",
+    "dedicatedSpace": "专属空间",
+    "dedicatedSpaceItems": {
+      "outdoor": "带景观的户外区域",
+      "blankets": "舒适的毯子和靠垫",
+      "shade": "天然遮荫或遮阳伞",
+      "table": "提供桌子和座位"
+    },
+    "foodAndDrinks": "食物和饮料",
+    "foodAndDrinksItems": {
+      "basket": "美食篮子",
+      "drinks": "天然或热饮",
+      "snacks": "小吃和新鲜水果",
+      "vegetarian": "提供素食选择"
+    },
+    "extraServices": "额外服务",
+    "extraServicesItems": {
+      "decoration": "主题装饰（可选）",
+      "music": "蓝牙环境音乐",
+      "games": "桌游",
+      "photos": "时刻摄影"
+    },
+    "activities": "活动",
+    "activitiesItems": {
+      "hiking": "导游徒步旅行",
+      "birdWatching": "观鸟",
+      "hammocks": "吊床区",
+      "kids": "儿童空间"
+    },
+    "amenities": "便利设施",
+    "amenitiesItems": {
+      "bathrooms": "干净设备齐全的洗手间",
+      "charging": "手机充电点",
+      "parking": "免费停车",
+      "wifi": "提供WiFi"
+    },
+    "naturalEnvironment": "自然环境",
+    "naturalEnvironmentItems": {
+      "air": "山间纯净空气",
+      "views": "全景视野",
+      "flora": "当地动植物",
+      "weather": "宜人气候"
+    },
+    "packagesTitle": "野餐套餐",
+    "packagesSubtitle": "适合所有口味和预算的灵活选择",
+    "basicPackage": "基础野餐",
+    "basicPrice": "$40.000",
+    "basicPerPerson": "每人",
+    "basicItems": {
+      "space": "2-4小时专属空间",
+      "basket": "基础食物篮",
+      "drink": "天然饮料",
+      "access": "所有区域通行"
+    },
+    "premiumPackage": "高级野餐",
+    "premiumPrice": "$70.000",
+    "premiumPerPerson": "每人",
+    "premiumItems": {
+      "basic": "基础套餐所有内容",
+      "gourmet": "完整美食篮",
+      "drinks": "高级饮料",
+      "decoration": "主题装饰",
+      "photos": "摄影服务"
+    },
+    "familyPackage": "家庭野餐",
+    "familyPrice": "$250.000",
+    "familyUpTo": "最多6人",
+    "familyItems": {
+      "space": "全天宽敞空间",
+      "basket": "完整家庭篮",
+      "drinks": "无限饮料",
+      "kids": "儿童活动",
+      "guide": "自然导览"
+    },
+    "reservationNote": "预订：建议提前24小时预订。价格可能因季节和服务定制而有所不同。",
+    "discountsTitle": "特别折扣",
+    "discountItems": {
+      "groups": "10人以上团体：85折",
+      "weekday": "工作日预订：9折",
+      "loyalty": "常客：忠诚度计划"
+    },
+    "customPackages": "询问我们的定制套餐！"
+  },
+  "camping": {
+    "title": "星空露营",
+    "subtitle": "如果您热爱冒险，我们为您提供完美的地方，在星空下度过一个神奇的夜晚。",
+    "description": "享受凉爽的气候、全景视野和安静的环境，拥有所有舒适设施。",
+    "experienceTitle": "您的露营体验",
+    "experienceSubtitle": "自带设备露营 - 完整而难忘的冒险",
+    "campingArea": "露营区",
+    "campingAreaItems": {
+      "reserved": "为您的帐篷预留空间",
+      "level": "平坦舒适的区域",
+      "secure": "安全私密的区域",
+      "view": "全景视野"
+    },
+    "dinner": "乡村晚餐",
+    "dinnerItems": {
+      "snacks": "各种传统小吃",
+      "drinks": "天然或热饮",
+      "dessert": "手工甜点",
+      "meal": "热腾腾的传统晚餐"
+    },
+    "breakfast": "日出早餐",
+    "breakfastItems": {
+      "arepa": "奶酪或凝乳玉米饼",
+      "eggs": "随您喜好的鸡蛋",
+      "hotDrink": "您选择的热饮",
+      "juice": "当天天然果汁"
+    },
+    "additionalServicesTitle": "包含的额外服务",
+    "additionalServices": {
+      "games": "桌游",
+      "music": "随您喜好的音乐",
+      "charging": "手机充电",
+      "data": "共享移动数据",
+      "rest": "休息区通行",
+      "support": "24/7个性化服务"
+    },
+    "pricingTitle": "价格信息",
+    "pricingDescription1": "自带设备露营的价格根据人数以及所选晚餐和早餐类型而有所不同。",
+    "pricingDescription2": "我们提供灵活的报价，以适应您的预算和想要体验的经历。",
+    "examplePackagesTitle": "套餐示例",
+    "individual": "单人",
+    "individualPrice": "从$80.000起",
+    "individualItems": {
+      "space": "1人空间",
+      "meals": "晚餐 + 早餐",
+      "services": "所有服务"
+    },
+    "couple": "情侣",
+    "couplePrice": "从$150.000起",
+    "coupleItems": {
+      "space": "2人空间",
+      "meals": "晚餐 + 早餐",
+      "experience": "浪漫体验"
+    },
+    "group": "团体/家庭",
+    "groupPrice": "请咨询",
+    "groupItems": {
+      "people": "4人以上",
+      "specialPrice": "团体特价",
+      "personalized": "个性化体验"
+    },
+    "importantNote": "重要提示：您必须自带露营设备（帐篷、睡袋等）。建议提前预订以确保可用性。",
+    "requirementsTitle": "要求和建议",
+    "requirementsItems": {
+      "equipment": "状况良好的露营设备",
+      "clothes": "夜间保暖衣物",
+      "light": "手电筒或灯",
+      "respect": "尊重自然环境"
+    },
+    "contactNote": "联系我们获取个性化报价！"
+  },
+  "events": {
+    "title": "特别活动",
+    "subtitle": "在宜人的气候、壮观的景色和个性化服务中享受独特的环境。",
+    "description": "我们提供专为庆祝不同特殊时刻而设计的套餐。",
+    "celebrationPackageTitle": "基础庆祝套餐",
+    "celebrationPackageSubtitle": "简单而迷人的计划，非常适合情侣、家庭或小团体。",
+    "reservation": "空间预订",
+    "reservationItems": {
+      "people": "2、4、6或8人",
+      "table": "铺有桌布的装饰桌",
+      "balloons": "氦气球",
+      "message": "个性化信息",
+      "centerpiece": "餐桌中心装饰"
+    },
+    "welcomeDrinks": "欢迎饮料",
+    "coldDrinks": "冷饮：",
+    "coldDrinksList": "百香果鸡尾酒、芒果、莫吉托、桑格利亚、米切拉达、冰啤酒",
+    "hotDrinks": "热饮：",
+    "hotDrinksList": "肉桂酒、草本茶、茶、咖啡、巧克力、调味牛奶",
+    "snacks": "小吃",
+    "snacksItems": {
+      "pincho": "混合串烧配玉米饼",
+      "stuffedArepa": "肉馅小玉米饼",
+      "chorizoArepa": "西班牙香肠小玉米饼",
+      "cuajadaArepa": "新鲜凝乳玉米饼"
+    },
+    "mainDish": "主菜",
+    "mainDishItems": {
+      "rice": "阿托拉多饭",
+      "patacon": "炸大蕉饼",
+      "salad": "切丝沙拉"
+    },
+    "naturalDrink": "天然饮料",
+    "naturalDrinkText": "天然果汁：芒果、百香果、树番茄、草莓、番荔枝、黑莓、菠萝或茄果",
+    "dessert": "甜点",
+    "dessertItems": {
+      "icecream": "奶油冰淇淋",
+      "threeMilk": "水果三奶",
+      "cuajada": "凝乳配果脯或蜂蜜"
+    },
+    "additionalExperienceTitle": "包含的额外体验",
+    "additionalExperience": {
+      "games": "桌游",
+      "hammock": "吊床",
+      "music": "随您喜好的音乐",
+      "charging": "手机充电",
+      "data": "共享移动数据"
+    },
+    "packagesTitle": "套餐选择",
+    "packagesSubtitle": "根据所选产品和人数调整价格",
+    "classicPackage": "经典基础",
+    "classicPrice": "$50.000 - $60.000",
+    "classicItems": {
+      "mainDish": "主菜",
+      "juice": "天然果汁",
+      "dessert": "甜点",
+      "noEntries": "不含前菜",
+      "noAlcohol": "不含酒精饮料"
+    },
+    "flexiblePackage": "灵活基础",
+    "flexiblePrice": "$70.000",
+    "flexibleItems": {
+      "mainDish": "主菜",
+      "entries": "前菜（串烧或玉米饼）",
+      "juice": "天然果汁",
+      "dessert": "甜点",
+      "noAlcohol": "不含酒精饮料"
+    },
+    "premiumPackage": "高级基础",
+    "premiumPrice": "$90.000",
+    "premiumItems": {
+      "mainDish": "主菜",
+      "entries": "完整前菜",
+      "alcohol": "酒精饮料",
+      "dessert": "甜点",
+      "fullService": "完整服务"
+    },
+    "importantNote": "重要提示：为了提供完全适合您活动的体验，我们首先向您展示可用菜肴并准备个性化报价。价格可能因所选菜肴和人数而有所不同。",
+    "groupDiscountsTitle": "团体折扣",
+    "groupDiscounts": {
+      "large": "5人以上团体：优惠价格",
+      "negotiable": "根据菜肴和团体规模价格可协商",
+      "flexible": "可按人或情侣调整价格"
+    },
+    "objective": "我们的目标是适应您的预算和需求。"
+  }
+}

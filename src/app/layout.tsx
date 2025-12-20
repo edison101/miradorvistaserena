@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { AuthProvider } from "@/features/auth/context/AuthContext";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,23 +15,43 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Genesis - Plataforma Modular",
-  description: "Plataforma web modular y personalizable construida con Next.js y Supabase",
+  title: "Mirador Vista Serena | Cubará, Boyacá",
+  description: "Descubre la belleza natural de Cubará, Boyacá. Gastronomía, vistas panorámicas y experiencias únicas en el Mirador Vista Serena.",
+  keywords: "Mirador Vista Serena, Cubará, Boyacá, Colombia, turismo, gastronomía, camping, eventos",
+  authors: [{ name: "BYTSE Solutions", url: "https://www.bytsesolutions.com/es/" }],
+  openGraph: {
+    title: "Mirador Vista Serena",
+    description: "Un espacio único donde la gastronomía se encuentra con paisajes inolvidables",
+    type: "website",
+    locale: "es_CO",
+    siteName: "Mirador Vista Serena",
+  },
+  icons: {
+    icon: [
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const messages = await getMessages();
+
   return (
     <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <AuthProvider>
+        <NextIntlClientProvider messages={messages}>
           {children}
-        </AuthProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

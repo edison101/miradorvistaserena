@@ -1,0 +1,508 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "about": "Über Uns",
+    "specialEvents": "Besondere Veranstaltungen",
+    "picnic": "Picknick",
+    "camping": "Camping"
+  },
+  "hero": {
+    "title": "Mirador Vista Serena",
+    "subtitle": "Entdecken Sie die natürliche Schönheit von Gibraltar, Norte de Santander",
+    "description": "Ein einzigartiger Ort, an dem Gastronomie auf unvergessliche Landschaften trifft",
+    "cta": "Menü Ansehen"
+  },
+  "menu": {
+    "title": "Unser Menü",
+    "drinks": "Getränke",
+    "coldDrinks": "Kalte Getränke",
+    "hotDrinks": "Heiße Getränke",
+    "beers": "Biere",
+    "micheladas": "Micheladas",
+    "combos": "Kombos",
+    "desserts": "Desserts",
+    "food": "Essen",
+    "saltFood": "Salziges Essen",
+    "specialFood": "Spezialgerichte",
+    "priceVariable": "Variabler Preis - mit Kellner bestätigen",
+    "specialProducts": "Spezialprodukte",
+    "regenerativeProduct": "Regeneratives Produkt",
+    "topThisMonth": "Am Meisten Bestellt Diesen Monat",
+    "basedOnPreferences": "Basierend auf den Vorlieben unserer Kunden",
+    "orders": "Bestellungen",
+    "order": "Bestellung",
+    "addToCart": "Hinzufügen",
+    "added": "zum Warenkorb hinzugefügt",
+    "confirmWithWaiter": "Preis mit Kellner bestätigen",
+    "lowAvailability": "Geringe Verfügbarkeit - Kann Vorbestellung und Vorauszahlung erfordern"
+  },
+  "cart": {
+    "title": "Meine Bestellung",
+    "empty": "Ihre Bestellung ist leer",
+    "addProducts": "Produkte aus dem Menü hinzufügen",
+    "customerInfo": "Kundeninformationen",
+    "name": "Name",
+    "tableNumber": "Tischnummer",
+    "yourName": "Ihr Name",
+    "exampleTable": "Z.B.: 5",
+    "confirmPrice": "Preis mit Kellner bestätigen",
+    "subtotal": "Zwischensumme",
+    "productsWithPrice": "Produkte mit Preis",
+    "productsToConfirm": "Produkte zu bestätigen",
+    "estimatedTotal": "Geschätzte Summe",
+    "priceNote": "Preise können aufgrund von Wetter-, Sozial- oder Lieferkettenbedingungen variieren",
+    "sendOrder": "Bestellung per WhatsApp senden",
+    "clearOrder": "Bestellung löschen",
+    "paymentMethods": "Zahlungsmethoden",
+    "cash": "Bargeld (mit Kellner bestätigen)",
+    "nequi": "Nequi",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "itemsWithoutPrice": "Produkt(e) ohne festgelegten Preis",
+    "waiterWillConfirm": "Der Kellner wird den Endpreis dieser Produkte bestätigen"
+  },
+  "gallery": {
+    "title": "Vollständige Galerie",
+    "subtitle": "Entdecken Sie alle unsere Momente, Veranstaltungen und Erlebnisse",
+    "moments": "Momente",
+    "events": "Veranstaltungen",
+    "activities": "Aktivitäten",
+    "ourTeam": "Unser Team",
+    "all": "Alle",
+    "showing": "Zeige",
+    "image": "Bild",
+    "images": "Bilder"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "location": "Standort",
+    "address": "Gibraltar, Norte de Santander, Kolumbien"
+  },
+  "weather": {
+    "title": "Wetter in Gibraltar",
+    "location": "Norte de Santander, Kolumbien",
+    "updating": "Wetterdaten werden aktualisiert...",
+    "viewForecast": "Vollständige Vorhersage Anzeigen"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "madeBy": "Gemacht mit",
+    "by": "von",
+    "qualityCommitment": "Qualität und Engagement",
+    "hygieneStandards": "Wir erfüllen Hygiene- und Lebensmittelsicherheitsstandards",
+    "freshFood": "Frische und hochwertige Lebensmittel",
+    "naturalProducts": "Natürliche Produkte aus der Region",
+    "safeEnvironment": "Sichere und familienfreundliche Umgebung"
+  },
+  "common": {
+    "businessName": "Mirador Vista Serena"
+  },
+  "whatsapp": {
+    "title": "Wie können wir Ihnen helfen?",
+    "subtitle": "Wählen Sie eine Option",
+    "options": {
+      "reserveTable": "Tisch Reservieren",
+      "quoteEvent": "Veranstaltung Anfragen",
+      "menuInfo": "Menüinformationen",
+      "campingInfo": "Camping-Informationen",
+      "picnicInfo": "Picknick-Informationen",
+      "general": "Allgemeine Anfrage"
+    },
+    "messages": {
+      "reserveTable": "Hallo! Ich möchte einen Tisch im Mirador Vista Serena reservieren. Könnten Sie mir bei der Verfügbarkeit helfen?",
+      "quoteEvent": "Hallo! Ich bin daran interessiert, eine besondere Veranstaltung im Mirador Vista Serena zu organisieren. Könnten Sie mir Informationen und ein Angebot senden?",
+      "menuInfo": "Hallo! Ich hätte gerne weitere Informationen über die Speisekarte und verfügbaren Gerichte im Mirador Vista Serena.",
+      "campingInfo": "Hallo! Ich hätte gerne Informationen über das Camping unter den Sternen. Könnten Sie mir Details und Preise geben?",
+      "picnicInfo": "Hallo! Ich interessiere mich für das Picknick-Erlebnis. Könnten Sie Informationen über verfügbare Pakete teilen?",
+      "general": "Hallo! Ich hätte gerne weitere Informationen über Mirador Vista Serena."
+    }
+  },
+  "drinks": {
+    "cold": "Kalte Getränke",
+    "hot": "Heiße Getränke",
+    "beers": "Biere",
+    "micheladas": "Micheladas",
+    "maracuMango": "Maracú Mango",
+    "cerezada": "Kirschgetränk",
+    "sangria": "Rote Früchte Sangria",
+    "naturalJuiceWater": "Natürliche Fruchtsäfte mit Wasser",
+    "naturalJuiceMilk": "Natürliche Fruchtsäfte mit Milch",
+    "fruitSlushies": "Frucht-Slushies",
+    "homemadeYogurt": "Hausgemachter Fruchtjoghurt",
+    "herbalTea": "Kräutertee",
+    "redFruitTea": "Rote Früchte Tee",
+    "milkCoffee": "Milchkaffee",
+    "blackCoffee": "Schwarzer Kaffee",
+    "tinto": "Kolumbianischer Kaffee",
+    "panelWater": "Panela-Wasser",
+    "mintMilk": "Minz-Aromatisierte Milch",
+    "hotChocolate": "Heiße Schokolade",
+    "canelazo": "Canelazo",
+    "national": "Nationale",
+    "international": "Internationale",
+    "poker": "Poker",
+    "lightBeer": "Light Bier",
+    "costena": "Costeña",
+    "clubColombia": "Club Colombia Bier",
+    "budweiser": "Budweiser Bier",
+    "coronita": "Coronita Bier",
+    "coronaLarge": "Corona Großes Bier",
+    "simpleMichelada": "Einfache Michelada",
+    "simpleDesc": "Salziger Zitronengeschmack, Bier, Glas- oder Becherpräsentation",
+    "beerCream": "Biercreme",
+    "beerCreamDesc": "Dekorierte Glaspräsentation, enthält Light-Bier, Minze-Zitrone und Kondensmilch",
+    "frozenBeer": "Gefrorene Biere mit Fruchtpulpen",
+    "frozenBeerDesc": "Dekorierte Glaspräsentation, enthält gefrorenes Fruchtpulpe nach Wahl, Fruchtsauce nach Geschmack und Bier nach Wahl",
+    "samuelito": "Samuelito Michelada",
+    "samuelitoDesc": "Mit oder ohne gefrorene salzige Zitrone, feine Mangostücke, Light-Bier, Glaspräsentation",
+    "specialPauli": "Spezial Pauli Michelada",
+    "specialPauliDesc": "Enthält gefrorene Früchte, feine Mangostücke, Fruchtspieß, dekorierte Glaspräsentation und Bier nach Wahl",
+    "ponyMalta": "Pony Malta",
+    "cocaCola": "Coca Cola",
+    "pureWater": "Reines Wasser"
+  },
+  "combos": {
+    "title": "Getränk + Cuajada und Arepa Kombos",
+    "cuajadaPanel": "Cuajada mit Arepa und Panela-Wasser",
+    "cuajadaCoffee": "Cuajada mit Arepa und Milchkaffee",
+    "cuajadaChocolate": "Cuajada mit Arepa und Schokolade"
+  },
+  "desserts": {
+    "threeMilk": "Drei-Milch-Dessert",
+    "threeMilkDesc": "In Fruchtsauce: Brombeere, Passionsfrucht, Lulo, Mango oder Orange",
+    "homemadeIceCream": "Hausgemachtes Eis"
+  },
+  "food": {
+    "stuffedArepas": "Weiche Mais-Arepas Gefüllt mit Fleisch",
+    "chorizoArepas": "Arepas mit Chorizo",
+    "pinchos": "Spieße",
+    "choriYuca": "Chori Yuca",
+    "chickenRice": "Hühnerreis",
+    "atolladoRice": "Atollado Reis",
+    "beefFillet": "Sautiertes Rinderfilet",
+    "grilledBelly": "Gegrillte Rinderflanke",
+    "stuffedBoy": "Gefüllter Braten",
+    "stuffedChickenBreast": "Gefüllte Hähnchenbrust"
+  },
+  "schedule": {
+    "title": "Öffnungszeiten",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "opens": "Öffnet um",
+    "closes": "Schließt um",
+    "closed": "Für die Öffentlichkeit Geschlossen"
+  },
+  "about": {
+    "title": "Mirador Vista Serena",
+    "subtitle": "Ein einzigartiges Erlebnis im Einklang mit der Natur",
+    "quote": "Für diejenigen, die wahrnehmen können, lässt sich Schönheit nicht erklären: Sie wird gefühlt.",
+    "intro1": "Ist das nicht ein Beispiel für Schönheit? Natürlich ist es das. Unsere natürliche Schönheit zieht Blicke, Kameras und aufrichtige Herzen an, weil sie eine besondere Note hat, die man nur hier findet.",
+    "intro2": "Bei Mirador Vista Serena hat jeder Besucher die Möglichkeit, sich mit der Umgebung zu verbinden und ein einzigartiges, magisches und besonderes Erlebnis zu entdecken. Wir glauben an Ruhe, an die Natur und an diese Momente, die sich in die Seele einprägen.",
+    "history": "Dieses Projekt entstand aus der Liebe zum Land und der Vision einer Familie, die davon träumte, diesen Ort mit der Welt zu teilen. Doña Blanca Cecilia Suárez Rincón und ihr Ehemann Don Vicente Tapias haben zusammen mit der Unterstützung ihrer Tochter Paula Tapias Mirador Vista Serena mit Hingabe, Mühe und tiefem Respekt für die Region zum Leben erweckt.",
+    "impact": "Heute ist dieser Ort nicht nur ein Reiseziel zum Genießen, sondern auch eine Quelle für lokale Beschäftigung und ein Motor, der den Handel belebt und Produkte und Talente aus der Region fördert.",
+    "ourTeam": "Unser Team",
+    "teamSubtitle": "Engagiert für Ihr Erlebnis",
+    "missionTitle": "Mission",
+    "missionText": "Authentische Erlebnisse in einer privilegierten natürlichen Umgebung anzubieten, in der sich jeder Besucher entspannen, Ruhe atmen und unvergessliche Momente erleben kann. Wir fördern verantwortungsvollen Tourismus, die Nutzung regionaler Produkte und die Schaffung von Möglichkeiten für unsere Gemeinschaft.",
+    "visionTitle": "Vision",
+    "visionText": "Ein regionales Vorbild für Natur-, Gastronomie- und Wellnesserlebnisse zu sein, anerkannt für unsere herzliche Betreuung, unser Engagement für die Umwelt und die Fähigkeit, einzigartige Momente für jeden Besucher zu schaffen. Wir streben danach, nachhaltig zu wachsen, die lokale Wirtschaft zu stärken und die natürliche Schönheit zu bewahren, die uns besonders macht."
+  },
+  "hours": {
+    "openDays": "Geöffnete Tage",
+    "closedDays": "Geschlossene Tage",
+    "reservations": "Reservierungen und besondere Veranstaltungen"
+  },
+  "recommendations": {
+    "title": "Sind Sie Bereit für das Abenteuer?",
+    "subtitle": "Empfehlungen, um Ihren Besuch optimal zu nutzen",
+    "weather": {
+      "title": "Wetter Prüfen",
+      "description": "Überprüfen Sie die Wettervorhersage vor Ihrem Besuch, um besser vorbereitet zu sein"
+    },
+    "footwear": {
+      "title": "Geeignetes Schuhwerk",
+      "description": "Tragen Sie bequeme Schuhe mit gutem Halt für Wanderungen auf natürlichen Pfaden"
+    },
+    "sun": {
+      "title": "Sonnenschutz",
+      "description": "Bringen Sie Sonnencreme, Hut oder Kappe mit, um sich vor der Sonne zu schützen"
+    },
+    "rain": {
+      "title": "Auf Regen Vorbereiten",
+      "description": "Erwägen Sie, einen Regenschirm oder Regenmantel mitzubringen, das Wetter kann sich ändern"
+    },
+    "insects": {
+      "title": "Insektenschutzmittel",
+      "description": "Wir empfehlen die Verwendung von Abwehrmittel gegen Mücken und andere Insekten"
+    },
+    "wildlife": {
+      "title": "Wildtiere",
+      "description": "Sie können lokale Wildtiere in ihrem natürlichen Lebensraum beobachten. Halten Sie Abstand und Respekt"
+    },
+    "water": {
+      "title": "Hydratation",
+      "description": "Bringen Sie ausreichend Wasser mit, besonders wenn Sie wandern möchten"
+    },
+    "camera": {
+      "title": "Den Moment Festhalten",
+      "description": "Vergessen Sie nicht Ihre Kamera oder Ihr Handy, um die besten Erinnerungen festzuhalten"
+    },
+    "note": "Hinweis: Nicht alle diese Empfehlungen sind bei jedem Besuch notwendig. Bereiten Sie sich entsprechend dem Wetter und den Aktivitäten vor, die Sie planen."
+  },
+  "picnic": {
+    "title": "Picknick-Erlebnis",
+    "subtitle": "Genießen Sie einen einzigartigen Moment im Freien, umgeben von Natur, spektakulären Aussichten und Ruhe.",
+    "description": "Perfekt für Paare, Familien oder Gruppen, die sich entspannen und mit der Natur verbinden möchten.",
+    "whatIncludesTitle": "Was ist inbegriffen?",
+    "whatIncludesSubtitle": "Ein komplettes Erlebnis, um die Natur in vollen Zügen zu genießen",
+    "dedicatedSpace": "Eigener Bereich",
+    "dedicatedSpaceItems": {
+      "outdoor": "Freiluftbereich mit Aussicht",
+      "blankets": "Bequeme Decken und Kissen",
+      "shade": "Natürlicher Schatten oder Sonnenschirm",
+      "table": "Tisch und Sitzgelegenheiten verfügbar"
+    },
+    "foodAndDrinks": "Speisen und Getränke",
+    "foodAndDrinksItems": {
+      "basket": "Korb mit Gourmet-Optionen",
+      "drinks": "Natürliche oder heiße Getränke",
+      "snacks": "Snacks und frische Früchte",
+      "vegetarian": "Vegetarische Option verfügbar"
+    },
+    "extraServices": "Zusatzleistungen",
+    "extraServicesItems": {
+      "decoration": "Thematische Dekoration (optional)",
+      "music": "Bluetooth-Hintergrundmusik",
+      "games": "Brettspiele",
+      "photos": "Fotos vom Moment"
+    },
+    "activities": "Aktivitäten",
+    "activitiesItems": {
+      "hiking": "Geführte Wanderung",
+      "birdWatching": "Vogelbeobachtung",
+      "hammocks": "Hängemattenbereich",
+      "kids": "Bereich für Kinder"
+    },
+    "amenities": "Annehmlichkeiten",
+    "amenitiesItems": {
+      "bathrooms": "Saubere und ausgestattete Toiletten",
+      "charging": "Handy-Ladestationen",
+      "parking": "Kostenloser Parkplatz",
+      "wifi": "WiFi verfügbar"
+    },
+    "naturalEnvironment": "Natürliche Umgebung",
+    "naturalEnvironmentItems": {
+      "air": "Reine Bergluft",
+      "views": "Panoramablick",
+      "flora": "Lokale Flora und Fauna",
+      "weather": "Angenehmes Klima"
+    },
+    "packagesTitle": "Picknick-Pakete",
+    "packagesSubtitle": "Flexible Optionen für jeden Geschmack und jedes Budget",
+    "basicPackage": "Basis-Picknick",
+    "basicPrice": "$40.000",
+    "basicPerPerson": "Pro Person",
+    "basicItems": {
+      "space": "Eigener Bereich 2-4 Stunden",
+      "basket": "Basis-Lebensmittelkorb",
+      "drink": "Natürliches Getränk",
+      "access": "Zugang zu allen Bereichen"
+    },
+    "premiumPackage": "Premium-Picknick",
+    "premiumPrice": "$70.000",
+    "premiumPerPerson": "Pro Person",
+    "premiumItems": {
+      "basic": "Alles vom Basis-Paket",
+      "gourmet": "Kompletter Gourmet-Korb",
+      "drinks": "Premium-Getränke",
+      "decoration": "Thematische Dekoration",
+      "photos": "Fotoshooting"
+    },
+    "familyPackage": "Familien-Picknick",
+    "familyPrice": "$250.000",
+    "familyUpTo": "Bis zu 6 Personen",
+    "familyItems": {
+      "space": "Großer Bereich den ganzen Tag",
+      "basket": "Kompletter Familienkorb",
+      "drinks": "Unbegrenzte Getränke",
+      "kids": "Aktivitäten für Kinder",
+      "guide": "Naturführer"
+    },
+    "reservationNote": "Reservierungen: Es wird empfohlen, 24 Stunden im Voraus zu reservieren. Die Preise können je nach Saison und Personalisierung des Service variieren.",
+    "discountsTitle": "Sonderrabatte",
+    "discountItems": {
+      "groups": "Gruppen ab 10 Personen: 15% Rabatt",
+      "weekday": "Reservierung unter der Woche: 10% Rabatt",
+      "loyalty": "Stammkunden: Treueprogramm"
+    },
+    "customPackages": "Fragen Sie nach unseren maßgeschneiderten Paketen!"
+  },
+  "camping": {
+    "title": "Camping unter den Sternen",
+    "subtitle": "Wenn Sie Abenteuer lieben, bieten wir Ihnen den perfekten Ort, um eine magische Nacht unter den Sternen zu erleben.",
+    "description": "Genießen Sie das kühle Klima, Panoramablick und eine ruhige Atmosphäre mit allem Komfort.",
+    "experienceTitle": "Ihr Camping-Erlebnis",
+    "experienceSubtitle": "Camping mit eigener Ausrüstung - Ein komplettes und unvergessliches Abenteuer",
+    "campingArea": "Campingbereich",
+    "campingAreaItems": {
+      "reserved": "Reservierter Platz für Ihr Zelt",
+      "level": "Ebener und bequemer Bereich",
+      "secure": "Sichere und private Zone",
+      "view": "Panoramablick"
+    },
+    "dinner": "Ländliches Abendessen",
+    "dinnerItems": {
+      "snacks": "Verschiedene typische Snacks",
+      "drinks": "Natürliches oder heißes Getränk",
+      "dessert": "Handgemachtes Dessert",
+      "meal": "Warmes und traditionelles Abendessen"
+    },
+    "breakfast": "Frühstück im Morgengrauen",
+    "breakfastItems": {
+      "arepa": "Arepa mit Käse oder Cuajada",
+      "eggs": "Eier nach Wahl",
+      "hotDrink": "Heißes Getränk zur Auswahl",
+      "juice": "Natürlicher Saft des Tages"
+    },
+    "additionalServicesTitle": "Zusätzliche Inklusivleistungen",
+    "additionalServices": {
+      "games": "Brettspiele",
+      "music": "Musik nach Geschmack",
+      "charging": "Handy-Aufladung",
+      "data": "Geteilte mobile Daten",
+      "rest": "Zugang zu Ruhebereichen",
+      "support": "Persönliche Betreuung 24/7"
+    },
+    "pricingTitle": "Preisinformationen",
+    "pricingDescription1": "Der Wert des Campings mit eigener Ausrüstung variiert je nach Personenanzahl und der Art des ausgewählten Abendessens und Frühstücks.",
+    "pricingDescription2": "Wir bieten flexible Kostenvoranschläge an, um uns an Ihr Budget und das Erlebnis anzupassen, das Sie erleben möchten.",
+    "examplePackagesTitle": "Beispielpakete",
+    "individual": "Einzelperson",
+    "individualPrice": "Ab $80.000",
+    "individualItems": {
+      "space": "Platz für 1 Person",
+      "meals": "Abendessen + Frühstück",
+      "services": "Alle Dienstleistungen"
+    },
+    "couple": "Paar",
+    "couplePrice": "Ab $150.000",
+    "coupleItems": {
+      "space": "Platz für 2 Personen",
+      "meals": "Abendessen + Frühstück",
+      "experience": "Romantisches Erlebnis"
+    },
+    "group": "Gruppe/Familie",
+    "groupPrice": "Anfragen",
+    "groupItems": {
+      "people": "4+ Personen",
+      "specialPrice": "Spezieller Gruppenpreis",
+      "personalized": "Personalisiertes Erlebnis"
+    },
+    "importantNote": "Wichtig: Sie müssen Ihre eigene Campingausrüstung mitbringen (Zelt, Schlafsack, etc.). Es wird empfohlen, im Voraus zu reservieren, um Verfügbarkeit zu garantieren.",
+    "requirementsTitle": "Anforderungen und Empfehlungen",
+    "requirementsItems": {
+      "equipment": "Campingausrüstung in gutem Zustand",
+      "clothes": "Warme Kleidung für die Nacht",
+      "light": "Taschenlampe oder Lampe",
+      "respect": "Respekt für die natürliche Umgebung"
+    },
+    "contactNote": "Kontaktieren Sie uns für ein personalisiertes Angebot!"
+  },
+  "events": {
+    "title": "Besondere Veranstaltungen",
+    "subtitle": "Genießen Sie eine einzigartige Atmosphäre mit angenehmem Klima, spektakulärer Aussicht und persönlicher Betreuung.",
+    "description": "Wir haben Pakete entwickelt, um verschiedene besondere Momente zu feiern.",
+    "celebrationPackageTitle": "Basis-Feierpaket",
+    "celebrationPackageSubtitle": "Ein einfacher, aber bezaubernder Plan, perfekt für Paare, Familien oder kleine Gruppen.",
+    "reservation": "Raumreservierung",
+    "reservationItems": {
+      "people": "Für 2, 4, 6 oder 8 Personen",
+      "table": "Dekorierter Tisch mit Tischdecke",
+      "balloons": "Heliumballons",
+      "message": "Personalisierte Nachricht",
+      "centerpiece": "Tischmitte"
+    },
+    "welcomeDrinks": "Willkommensgetränke",
+    "coldDrinks": "Kalt:",
+    "coldDrinksList": "Passionsfrucht-Cocktail, Mango, Mojito, Sangria, Michelada, gefrorenes Bier",
+    "hotDrinks": "Heiß:",
+    "hotDrinksList": "Canelazo, Kräutertee, Tee, Kaffee, Schokolade, aromatisierte Milch",
+    "snacks": "Snacks",
+    "snacksItems": {
+      "pincho": "Gemischter Spieß mit Arepa",
+      "stuffedArepa": "Mit Fleisch gefüllte kleine Arepa",
+      "chorizoArepa": "Kleine Arepa mit Chorizo",
+      "cuajadaArepa": "Arepa mit frischer Cuajada"
+    },
+    "mainDish": "Hauptgericht",
+    "mainDishItems": {
+      "rice": "Atollado Reis",
+      "patacon": "Patacón",
+      "salad": "Julienne-Salat"
+    },
+    "naturalDrink": "Natürliches Getränk",
+    "naturalDrinkText": "Natürliche Säfte: Mango, Passionsfrucht, Baumtomate, Erdbeere, Guanábana, Brombeere, Ananas oder Lulo",
+    "dessert": "Dessert",
+    "dessertItems": {
+      "icecream": "Cremiges Eis",
+      "threeMilk": "Drei Milchen mit Früchten",
+      "cuajada": "Cuajada mit Bocadillo oder Honig"
+    },
+    "additionalExperienceTitle": "Zusätzliches Erlebnis inbegriffen",
+    "additionalExperience": {
+      "games": "Brettspiele",
+      "hammock": "Hängematte oder Hängestuhl",
+      "music": "Musik nach Geschmack",
+      "charging": "Handy-Aufladung",
+      "data": "Geteilte mobile Daten"
+    },
+    "packagesTitle": "Paketoptionen",
+    "packagesSubtitle": "Anpassbare Preise je nach ausgewählten Produkten und Personenanzahl",
+    "classicPackage": "Klassisch Wesentlich",
+    "classicPrice": "$50.000 - $60.000",
+    "classicItems": {
+      "mainDish": "Hauptgericht",
+      "juice": "Natürlicher Saft",
+      "dessert": "Dessert",
+      "noEntries": "Ohne Vorspeisen",
+      "noAlcohol": "Ohne alkoholische Getränke"
+    },
+    "flexiblePackage": "Flexibel Wesentlich",
+    "flexiblePrice": "$70.000",
+    "flexibleItems": {
+      "mainDish": "Hauptgericht",
+      "entries": "Vorspeisen (Spieß oder Arepa)",
+      "juice": "Natürlicher Saft",
+      "dessert": "Dessert",
+      "noAlcohol": "Ohne alkoholische Getränke"
+    },
+    "premiumPackage": "Premium Wesentlich",
+    "premiumPrice": "$90.000",
+    "premiumItems": {
+      "mainDish": "Hauptgericht",
+      "entries": "Komplette Vorspeisen",
+      "alcohol": "Alkoholische Getränke",
+      "dessert": "Dessert",
+      "fullService": "Kompletter Service"
+    },
+    "importantNote": "Wichtiger Hinweis: Um Ihnen ein vollständig auf Ihre Veranstaltung zugeschnittenes Erlebnis zu bieten, zeigen wir Ihnen zunächst die verfügbaren Gerichte und erstellen ein personalisiertes Angebot. Die Preise können je nach ausgewähltem Gericht und Personenanzahl variieren.",
+    "groupDiscountsTitle": "Gruppenrabatte",
+    "groupDiscounts": {
+      "large": "Gruppen ab 5 Personen: Vorzugspreis",
+      "negotiable": "Verhandelbare Preise je nach Gericht und Gruppengröße",
+      "flexible": "Möglichkeit, den Preis pro Person oder Paar anzupassen"
+    },
+    "objective": "Unser Ziel ist es, uns an Ihr Budget und Ihre Bedürfnisse anzupassen."
+  }
+}
