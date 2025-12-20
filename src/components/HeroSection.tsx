@@ -18,7 +18,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section id="home" className="relative w-full overflow-hidden min-h-screen md:h-screen">
+    <section id="home" className="relative w-full overflow-hidden min-h-screen md:h-screen bg-black">
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full">
         <video
@@ -27,10 +27,8 @@ export default function HeroSection() {
           loop
           muted
           playsInline
-          className="w-full h-full object-cover md:object-cover object-center"
-          style={{
-            objectPosition: 'center center'
-          }}
+          preload="metadata"
+          className="w-full h-full object-cover"
         >
           <source src={HERO_VIDEO} type="video/quicktime" />
           <source src={HERO_VIDEO} type="video/mp4" />

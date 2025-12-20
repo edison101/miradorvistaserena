@@ -24,8 +24,23 @@ export default function MenuSection() {
 
   useEffect(() => {
     clearOldData();
-    setTopItems(getTopItemsThisMonth(6));
-  }, [clearOldData, getTopItemsThisMonth]);
+    const analyticsItems = getTopItemsThisMonth(6);
+
+    // Si no hay datos del algoritmo, mostrar productos destacados por defecto
+    if (analyticsItems.length === 0) {
+      const defaultTopItems = [
+        { itemId: 'pauli', itemName: t('drinks.specialPauli'), category: t('menu.micheladas'), views: 0, addedToCart: 0, score: 0, trend: 'hot' as const },
+        { itemId: 'crema-cerveza', itemName: t('drinks.beerCream'), category: t('menu.micheladas'), views: 0, addedToCart: 0, score: 0, trend: 'hot' as const },
+        { itemId: 'maracu-mango', itemName: t('drinks.maracuMango'), category: t('menu.coldDrinks'), views: 0, addedToCart: 0, score: 0, trend: 'popular' as const },
+        { itemId: 'sangria', itemName: t('drinks.sangria'), category: t('menu.coldDrinks'), views: 0, addedToCart: 0, score: 0, trend: 'popular' as const },
+        { itemId: 'canelazo', itemName: t('drinks.canelazo'), category: t('menu.hotDrinks'), views: 0, addedToCart: 0, score: 0, trend: 'rising' as const },
+        { itemId: 'combo-chocolate', itemName: t('combos.cuajadaChocolate'), category: t('menu.combos'), views: 0, addedToCart: 0, score: 0, trend: 'popular' as const },
+      ];
+      setTopItems(defaultTopItems);
+    } else {
+      setTopItems(analyticsItems);
+    }
+  }, [clearOldData, getTopItemsThisMonth, t]);
 
   const drinkVideos = [
     { src: '/image/Mirador Vista serena/menu/Bebidas/Refresco de Maracuya.MP4', type: 'video' },
@@ -53,7 +68,6 @@ export default function MenuSection() {
   const foodImages = [
     { src: '/image/Mirador Vista serena/menu/Comidas/Arepas rellenas de carne.jpg', alt: 'Arepas rellenas' },
     { src: '/image/Mirador Vista serena/menu/Comidas/Chori Yuca.jpg', alt: 'Chori Yuca' },
-    { src: '/image/Mirador Vista serena/menu/Comidas/Productos.jpg', alt: 'Productos' },
   ];
 
   const drinkItems = [
@@ -172,6 +186,7 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
@@ -188,6 +203,7 @@ export default function MenuSection() {
                       src={image.src}
                       alt={image.alt}
                       fill
+                      loading="lazy"
                       className="object-cover hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -204,6 +220,7 @@ export default function MenuSection() {
                       src={image.src}
                       alt={image.alt}
                       fill
+                      loading="lazy"
                       className="object-cover hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -215,6 +232,7 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
@@ -228,6 +246,7 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
@@ -305,13 +324,14 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
                     VIDEO
                   </div>
                 </div>
-                {foodImages.slice(0, 2).map((image, index) => (
+                {foodImages.map((image, index) => (
                   <div
                     key={index}
                     className="relative aspect-square rounded-lg overflow-hidden shadow-md cursor-pointer hover:shadow-xl transition-shadow"
@@ -321,6 +341,7 @@ export default function MenuSection() {
                       src={image.src}
                       alt={image.alt}
                       fill
+                      loading="lazy"
                       className="object-cover hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -332,6 +353,7 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
@@ -347,22 +369,12 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
                     VIDEO
                   </div>
-                </div>
-                <div
-                  className="relative aspect-square rounded-lg overflow-hidden shadow-md cursor-pointer hover:shadow-xl transition-shadow"
-                  onClick={() => setSelectedImage(foodImages[2].src)}
-                >
-                  <Image
-                    src={foodImages[2].src}
-                    alt={foodImages[2].alt}
-                    fill
-                    className="object-cover hover:scale-105 transition-transform duration-300"
-                  />
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden shadow-md group">
                   <video
@@ -371,6 +383,7 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
@@ -384,14 +397,13 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
                     VIDEO
                   </div>
                 </div>
-
-                {/* Fila 3 */}
                 <div className="relative aspect-square rounded-lg overflow-hidden shadow-md group">
                   <video
                     src={foodVideos[5].src}
@@ -399,6 +411,7 @@ export default function MenuSection() {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 px-2 py-1 rounded text-white text-xs font-semibold">
@@ -478,50 +491,50 @@ export default function MenuSection() {
               <div className="w-12 h-1 bg-orange-500 mx-auto rounded"></div>
             </div>
 
-            {topItems.length > 0 ? (
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                {topItems.map((item, index) => {
-                  const menuItem = drinkItems.find(d => d.id === item.itemId);
-                  if (!menuItem) return null;
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 justify-items-center max-w-7xl mx-auto">
+              {topItems.map((item, index) => {
+                const menuItem = drinkItems.find(d => d.id === item.itemId);
+                if (!menuItem) return null;
 
-                  return (
-                    <div
-                      key={item.itemId}
-                      className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow border border-gray-200"
-                    >
-                      <div className="flex items-start justify-between mb-2">
-                        <span className="text-2xl">{['🥇', '🥈', '🥉', '🏆', '🏆', '🏆'][index]}</span>
-                        <span className="text-lg">{item.trend === 'hot' ? '🔥' : item.trend === 'rising' ? '📈' : '⭐'}</span>
-                      </div>
+                return (
+                  <div
+                    key={item.itemId}
+                    className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow border border-gray-200 w-full max-w-[200px]"
+                  >
+                    <div className="flex items-start justify-between mb-2">
+                      <span className="text-2xl">{['🥇', '🥈', '🥉', '🏆', '🏆', '🏆'][index]}</span>
+                      <span className="text-lg">{item.trend === 'hot' ? '🔥' : item.trend === 'rising' ? '📈' : '⭐'}</span>
+                    </div>
 
-                      <h3 className="font-bold text-gray-900 text-sm mb-2 line-clamp-2 min-h-[2.5rem]">
-                        {menuItem.name}
-                      </h3>
+                    <h3 className="font-bold text-gray-900 text-sm mb-2 line-clamp-2 min-h-[2.5rem]">
+                      {menuItem.name}
+                    </h3>
 
+                    {item.views > 0 || item.addedToCart > 0 ? (
                       <div className="flex items-center gap-2 text-xs text-gray-600 mb-2">
                         <span>👁️ {item.views}</span>
                         <span>🛒 {item.addedToCart}</span>
                       </div>
-
-                      <div className="text-lg font-bold text-green-600 mb-3">
-                        ${menuItem.price.toLocaleString('es-CO')}
+                    ) : (
+                      <div className="text-xs text-orange-600 mb-2 font-semibold">
+                        ⭐ Destacado
                       </div>
+                    )}
 
-                      <button
-                        onClick={() => handleAddToCart(menuItem)}
-                        className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg transition-colors text-xs font-semibold"
-                      >
-                        {t('menu.addToCart')}
-                      </button>
+                    <div className="text-lg font-bold text-green-600 mb-3">
+                      ${menuItem.price.toLocaleString('es-CO')}
                     </div>
-                  );
-                })}
-              </div>
-            ) : (
-              <div className="text-center py-12 bg-white/90 rounded-2xl">
-                <p className="text-gray-500 text-sm">No hay suficientes datos aún. ¡Empieza a agregar productos al carrito!</p>
-              </div>
-            )}
+
+                    <button
+                      onClick={() => handleAddToCart(menuItem)}
+                      className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg transition-colors text-xs font-semibold"
+                    >
+                      {t('menu.addToCart')}
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
         </div>

@@ -62,6 +62,7 @@ export default function GallerySection() {
                   src={src}
                   alt={`Momento ${index + 1}`}
                   fill
+                  loading="lazy"
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
@@ -100,6 +101,7 @@ export default function GallerySection() {
                   src={src}
                   alt={`Momento ${index + 8}`}
                   fill
+                  loading="lazy"
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
