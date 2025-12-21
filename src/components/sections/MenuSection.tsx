@@ -491,15 +491,16 @@ export default function MenuSection() {
               <div className="w-12 h-1 bg-orange-500 mx-auto rounded"></div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 justify-items-center max-w-7xl mx-auto">
-              {topItems.map((item, index) => {
+            <div className="flex justify-center">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-7xl">
+                {topItems.map((item, index) => {
                 const menuItem = drinkItems.find(d => d.id === item.itemId);
                 if (!menuItem) return null;
 
                 return (
                   <div
                     key={item.itemId}
-                    className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow border border-gray-200 w-full max-w-[200px]"
+                    className="bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow border border-gray-200"
                   >
                     <div className="flex items-start justify-between mb-2">
                       <span className="text-2xl">{['🥇', '🥈', '🥉', '🏆', '🏆', '🏆'][index]}</span>
@@ -533,7 +534,8 @@ export default function MenuSection() {
                     </button>
                   </div>
                 );
-              })}
+                })}
+              </div>
             </div>
           </div>
 

@@ -64,10 +64,10 @@ export default function AboutSection() {
             <div className="mb-12 animate-fade-in flex justify-center" style={{ animationDelay: '300ms' }}>
               <div
                 className="relative w-full md:w-3/4 lg:w-2/3 h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-2xl cursor-pointer group"
-                onClick={() => setSelectedImage('/image/Mirador Vista serena/Galería/Equipo de trabajo.JPG')}
+                onClick={() => setSelectedImage('/image/Mirador Vista serena/Galería/equipo de trabajo.jpg')}
               >
                 <Image
-                  src="/image/Mirador Vista serena/Galería/Equipo de trabajo.JPG"
+                  src="/image/Mirador Vista serena/Galería/equipo de trabajo.jpg"
                   alt="Equipo de trabajo - Mirador Vista Serena"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

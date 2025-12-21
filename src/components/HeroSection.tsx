@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
 // Video hero principal del Mirador Vista Serena
-const HERO_VIDEO = '/image/Mirador Vista serena/video-hero-vistaserena.mov';
+const HERO_VIDEO = '/image/Mirador Vista serena/video-hero-2.mp4';
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -27,10 +27,10 @@ export default function HeroSection() {
           loop
           muted
           playsInline
-          preload="metadata"
+          preload="auto"
+          poster="/image/Mirador Vista serena/Galería/Doña blanca.JPG"
           className="w-full h-full object-cover"
         >
-          <source src={HERO_VIDEO} type="video/quicktime" />
           <source src={HERO_VIDEO} type="video/mp4" />
         </video>
 
