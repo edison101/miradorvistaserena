@@ -4,15 +4,24 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
 // Video hero principal del Mirador Vista Serena
-const HERO_VIDEO = '/image/Mirador Vista serena/video-hero-2.mp4';
+const HERO_VIDEO_CLOUDINARY = 'https://res.cloudinary.com/dmmepnn5h/video/upload/vistaserena-comprimida_oeviig.mp4';
+const HERO_VIDEO_LOCAL = '/image/Mirador Vista serena/vistaserena-comprimida.mp4';
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     if (videoRef.current) {
+      // Intentar reproducir con audio primero
       videoRef.current.play().catch((error) => {
-        console.log('Auto-play was prevented:', error);
+        console.log('Auto-play con audio prevenido, intentando sin audio:', error);
+        // Si falla con audio, intentar sin audio (muted)
+        if (videoRef.current) {
+          videoRef.current.muted = true;
+          videoRef.current.play().catch((err) => {
+            console.log('Auto-play prevenido completamente:', err);
+          });
+        }
       });
     }
   }, []);
@@ -25,13 +34,15 @@ export default function HeroSection() {
           ref={videoRef}
           autoPlay
           loop
-          muted
           playsInline
           preload="auto"
           poster="/image/Mirador Vista serena/Galería/Doña blanca.JPG"
           className="w-full h-full object-cover"
         >
-          <source src={HERO_VIDEO} type="video/mp4" />
+          {/* Cloudinary CDN - Primera opción (más rápido) */}
+          <source src={HERO_VIDEO_CLOUDINARY} type="video/mp4" />
+          {/* Local fallback - Segunda opción */}
+          <source src={HERO_VIDEO_LOCAL} type="video/mp4" />
         </video>
 
         {/* Overlay gradient */}
