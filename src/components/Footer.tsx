@@ -21,11 +21,8 @@ export default function Footer() {
           {/* About */}
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold mb-4">Mirador Vista Serena</h3>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              {tContact('address')}
-            </p>
-            <p className="text-gray-400 text-xs mt-2 italic">
-            Entre Cubará, Boyacá y Gibraltar, Norte de Santander
+            <p className="text-gray-400 text-sm italic">
+              Entre Cubará, Boyacá y Gibraltar, Norte de Santander.
             </p>
           </div>
 
