@@ -58,7 +58,7 @@ export default function OrderCart() {
     message += `\n📝 *Nota:* El cliente debe confirmar el pedido con el mesero.\n`;
     message += `\n⚠️ Los precios y disponibilidad están sujetos a cambios debido a condiciones climáticas, sociales y de la cadena de suministro.`;
 
-    const whatsappUrl = `https://wa.me/573044459648?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/573229537651?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 
     // Clear form after sending

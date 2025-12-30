@@ -70,6 +70,8 @@ export default function AboutSection() {
                   src="/image/Mirador Vista serena/Galería/equipo de trabajo.jpg"
                   alt="Equipo de trabajo - Mirador Vista Serena"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 75vw, 66vw"
+                  loading="lazy"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent group-hover:from-black/60"></div>

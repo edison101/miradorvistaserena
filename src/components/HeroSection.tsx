@@ -39,10 +39,10 @@ export default function HeroSection() {
           poster="/image/Mirador Vista serena/Galería/Doña blanca.JPG"
           className="w-full h-full object-cover"
         >
-          {/* Cloudinary CDN - Primera opción (más rápido) */}
-          <source src={HERO_VIDEO_CLOUDINARY} type="video/mp4" />
-          {/* Local fallback - Segunda opción */}
+          {/* Video local - Primera opción (más rápido) */}
           <source src={HERO_VIDEO_LOCAL} type="video/mp4" />
+          {/* Cloudinary fallback - Segunda opción */}
+          <source src={HERO_VIDEO_CLOUDINARY} type="video/mp4" />
         </video>
 
         {/* Overlay gradient */}
