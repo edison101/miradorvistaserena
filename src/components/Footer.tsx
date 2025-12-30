@@ -25,7 +25,7 @@ export default function Footer() {
               {tContact('address')}
             </p>
             <p className="text-gray-400 text-xs mt-2 italic">
-            Gibraltar, Norte de Santander
+            Entre Cubará, Boyacá y Gibraltar, Norte de Santander
             </p>
           </div>
 
